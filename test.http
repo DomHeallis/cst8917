@@ -1,0 +1,10 @@
+### Test GET request
+GET http://localhost:7071/api/HttpExample?name=Azure
+
+### Test POST request
+POST http://localhost:7071/api/HttpExample
+Content-Type: application/json
+
+{
+  "name": "Heallis"
+}
